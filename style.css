@@ -5,62 +5,23 @@
 header{
     border-bottom: 1px solid rgb(172, 152, 152);
 }
-.slide-caption{
-    position: relative;
-    
+
+
+.icon i{
+    font-size: 40px;
+    color: black;
 }
-.slide-text{
-    opacity: 0;
-    transition: all 1s ease;
-    text-align: left;
-}
-.carousel-caption h1{
-    font-family: "playfair Display";
-}
-.slide-text:hover{
-    opacity: 1;
-}
-@media (max-width : 540px) {
-    .slide-caption{
-        position: relative;
-        
-    }
-    .slide-text{
-        opacity: 0;
-        transition: all 1s ease;
-        text-align: left;
-    }
-    .carousel-caption h1{
-        font-family: "playfair Display";
-    }
-    .slide-text:hover{
-        opacity: 1;
-    }
+
+p{
+    font-size: 18px;
+    color: grey;
 }
 
 .blog-post-title{
     font-family: "playfair Display";
 }
 
-.link{
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-    transition: .2s ease;
-}
-.link:hover{
-    color: #333;
-    text-decoration: none;
-}
 
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
   footer ul li{
     list-style-type: none;
   }
@@ -68,6 +29,9 @@ header{
     font-size: 16px;
     text-decoration: none;
     color: #333;
+  }
+  section{
+    padding-top: 5rem;
   }
   @media (max-width: 768px) {
     .bd-placeholder-img-lg {
