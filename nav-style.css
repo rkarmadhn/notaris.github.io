@@ -1,0 +1,86 @@
+.nav-one{
+    height: 80px;
+    background-color: #f2f2fe;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+  .nav-one h5{
+    display: inline-block;
+    margin: 20px 20px;
+    color: black;
+}
+  .nav-one ul{
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+}
+  .nav-one ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 2px;
+    z-index: inherit;
+}
+  .nav-one ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: .8s;
+}
+  .nav-one ul li a:hover{
+    color: white;
+}
+  nav label{
+    float: right;
+  }
+  .nav-one label #button,
+  .nav-one label #close{
+    color: rgb(52, 58, 64);
+    font-size: 32px;
+    margin-right: 30px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+
+@media (max-width : 968px) {
+  /* Navbar */
+  .nav-one label #button{
+    display: block;
+}
+  .nav-one ul{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    right: 0;
+    margin : 0;
+    top: -100%;
+    text-align: center;
+    transition: all 1s;
+    background-color: #f2f2fe;
+    padding: 0;
+}
+  .nav-one ul li{
+    display: block;
+    line-height: 40px;
+    margin: 50px 20px;
+}
+  .nav-one ul li{
+    border-bottom: 1px solid #000;
+  }
+  #check:checked ~ ul{
+    top: 80px;
+  }
+  #check:checked ~ label #button{
+    display: none;
+  }
+  #check:checked ~ label #close{
+    display: block;
+}
+}

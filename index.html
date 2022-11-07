@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="image-slide.css">
+  <link rel="stylesheet" href="nav-style.css">
   <!-- Favicons -->
   <script src="https://kit.fontawesome.com/59443b8a75.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#7952b3">
@@ -36,35 +37,36 @@
   </style>
 
   <!-- Icon -->
-  <div class="container-fluid fixed-bottom" style="z-index: 9999;">
-    <a href="#content-page" class="icon float-end">
+  <div class="container-fluid fixed-bottom container-icon" >
+    <a href="#content-page" class="icon float-end" data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="500">
       <i class="fa-solid fa-circle-up m-3"></i>
     </a>
   </div>
 <!-- Navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div class="container p-lg-2">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="#">HOME</a>
-          <a class="nav-link active" href="#home">TENTANG KAMI</a>
-          <a class="nav-link active" href="#">PROFIL NOTARIS & PPAT</a>
-          <a class="nav-link active" href="#">NOTARIS</a>
-          <a class="nav-link active" href="#">PPAT</a>
-          <a class="nav-link active" href="#">CONTACT</a>
-        </div>
-      </div>
-    </div>
+    <nav class="nav-one">
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fa fa-bars" id="button"></i>
+        <i class="fa fa-times"id="close"></i>
+    </label>
+    <h5>NOTARIS & PPAT <br> Agus Priyantoko, SH., MKn., MH.</h5>
+    <ul class="list-unstyled">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#tk">Tentang Kami</a></li>
+      <li><a href="#">Notaris</a></li>
+      <li><a href="#">PPAT</a></li>
+      <li><a href="profil.html">Profil Notaris & PPAT</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
+  
 <!-- End Navbar -->
 
 <!-- Image Slider  -->
 <div class="container mt-3">
-  <div class=" mb-4 text-white rounded bg-dark">
+  <div class="mb-4">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -73,13 +75,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/Card 1.jpg" class="d-block w-100" alt="Foto 1" width="1000" height="400">
+          <img src="img/Card 1.jpg" class="d-block w-100" alt="Foto 1" width="1000" height="585">
         </div>
         <div class="carousel-item">
-          <img src="img/foto1.jpg" class="d-block w-100" alt="Foto 2" width="1000" height="400">
+          <img src="img/foto1.jpg" class="d-block w-100" alt="Foto 2" width="1000" height="585">
         </div>
         <div class="carousel-item">
-          <img src="img/foto2.jpg" class="d-block w-100" alt="Foto 3" width="1000" height="400">
+          <img src="img/foto2.jpg" class="d-block w-100" alt="Foto 3" width="1000" height="585">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -132,12 +134,12 @@
 
   <!-- Welcome -->
 
-  <section id="home">
+  <section id="tk">
     <div class="container">
       <div class="row g-5">
       <div class="col-md-12">
         <article class="blog-post">
-          <h2 class="blog-post-title fst-italic";">Welcome Reading !</h2>
+          <h2 class="blog-post-title fst-italic">Welcome Reading !</h2>
           <p class="blog-post-meta">November, 02 2022 oleh Admin</a></p>
 
           <p>Website ini kami selenggarakan untuk dapat membantu memberikan informasi praktis secara online mengenai hal-hal yang berhubungan dengan service Notaris dan PPAT (Pejabat Pembuat Akta Tanah) dari kantor kami.</p> 
@@ -196,7 +198,7 @@
       <div class="col-lg-6 mb-3">
         <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-          <span class="fs-5">NOTARIS & PPAT <br> AGUS</span>
+          <span class="fs-5">NOTARIS & PPAT <br> Agus Priyantoko, SH., MKn., MH.</span>
         </a>
         <ol class="list-unstyled ">
           <li class="mb-2">
@@ -220,26 +222,25 @@
           <li class="mb-2">
             <a href="#" style="text-decoration: none;">
               <i class="fa-brands fa-whatsapp" style="color: 	#128C7E;"></i>
-              <span style="font-weight: 400; color: #333;">Whatsapp</span>
+              <span style="font-weight: 400; color: #333;">0812-2020-4223</span>
             </a>
           </li>
           <li class="mb-2">
             <a href="#" style="text-decoration: none;">
               <i class="fa-solid fa-location-dot" style="color: #dd4b3e;"></i>
-              <span style="font-weight: 400; color: #333;">Location</span>
+              <span style="font-weight: 400; color: #333;">Jl. Gamprit Raya No.41, RT.004/RW.014, Jatiwaringin, Kec. Pd. Gede, Kota Bks, Jawa Barat 17411</span>
             </a>
           </li>
         </ol>
-        <strong>&copy; Copyright 2022</strong>
       </div>
       <div class="col-6 col-lg-3 mb-3">
         <h5>Links</h5>
         <ul class="list-unstyled">
-          <li class="mb-2"><a href="#">Home</a></li>
-          <li class="mb-2"><a href="#">Tentang Kami</a></li>
+          <li class="mb-2"><a href="index.html">Home</a></li>
+          <li class="mb-2"><a href="#tk">Tentang Kami</a></li>
           <li class="mb-2"><a href="#">Notaris</a></li>
           <li class="mb-2"><a href="#">PPAT</a></li>
-          <li class="mb-2"><a href="#">Profil Notaris & PPAT</a></li>
+          <li class="mb-2"><a href="profil.html">Profil Notaris & PPAT</a></li>
           <li class="mb-2"><a href="#">Contact</a></li>
         </ul>
       </div>

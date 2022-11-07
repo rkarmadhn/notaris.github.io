@@ -17,7 +17,7 @@
 .slide-text:hover{
     opacity: 1;
 }
-@media (max-width : 540px) {
+@media (max-width : 720px) {
     .slide-caption{
         position: relative;
         
@@ -32,6 +32,9 @@
     }
     .slide-text:hover{
         opacity: 1;
+    }
+    .carousel-item img {
+        height: 360px;
     }
 }
 /* End Image slide */
