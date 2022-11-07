@@ -28,9 +28,16 @@
   box-shadow: 0 0 15px black;
 }
 
+.carousel-item img{
+  height: 620px;
+}
+
 p, li{
     font-size: 18px;
     color: grey;
+}
+footer ul li a{
+  font-family: 'Inter', sans-serif;
 }
 
 .blog-post-title{
@@ -56,6 +63,9 @@ p, li{
         display: block;
     }
     
+    section{
+      padding-top: 0;
+    }
     
   }
 

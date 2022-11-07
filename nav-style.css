@@ -13,6 +13,7 @@
 }
   .nav-one ul{
     float: right;
+    margin-bottom: 0;
     margin-right: 40px;
     list-style: none;
 }
@@ -28,6 +29,7 @@
     font-weight: 500;
     color: #333;
     transition: .8s;
+    font-family: 'Inter', sans-serif;
 }
   .nav-one ul li a:hover{
     color: white;
@@ -51,6 +53,7 @@
 
 @media (max-width : 968px) {
   /* Navbar */
+  
   .nav-one label #button{
     display: block;
 }
@@ -61,7 +64,6 @@
     right: -100%;
     margin : 0;
     top: 80px;
-
     text-align: center;
     transition: all 1s;
     background-color: #f2f2fe;
