@@ -1,6 +1,7 @@
+
 .nav-one{
     height: 80px;
-    background-color: #f2f2fe;
+    background-color: #005d99;
     position: sticky;
     top: 0;
     left: 0;
@@ -8,8 +9,8 @@
 }
   .nav-one h5{
     display: inline-block;
-    margin: 20px 20px;
-    color: black;
+    margin: 15px 20px;
+    color: white;
 }
   .nav-one ul{
     float: right;
@@ -20,26 +21,26 @@
   .nav-one ul li{
     display: inline-block;
     line-height: 80px;
-    padding: 0 2px;
+    padding: 0 5px;
     z-index: inherit;
 }
   .nav-one ul li a{
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
-    color: #333;
+    color: white;
     transition: .8s;
     font-family: 'Inter', sans-serif;
 }
   .nav-one ul li a:hover{
-    color: white;
+    color: gold;
 }
   nav label{
     float: right;
   }
   .nav-one label #button,
   .nav-one label #close{
-    color: rgb(52, 58, 64);
+    color: whitesmoke;
     font-size: 32px;
     margin-right: 30px;
     line-height: 80px;
@@ -66,7 +67,7 @@
     top: 80px;
     text-align: center;
     transition: all 1s;
-    background-color: #f2f2fe;
+    background-color: #005d99;
     padding: 0;
 }
   .nav-one ul li{
@@ -77,6 +78,7 @@
   .nav-one ul li{
     border-bottom: 1px solid #000;
   }
+
   #check:checked ~ ul{
     right : 0;
   }
