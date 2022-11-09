@@ -49,14 +49,56 @@
     <div class="col">
       <ol class="breadcrumb ms-auto mt-1">
           <li class="breadcrumb-item"><a href="#"><i class="fa-solid fa-house"></i></a></li>
-          <li class="breadcrumb-item active" aria-current="page">NOTARIS</li>
+          <li class="breadcrumb-item active" aria-current="page">CONTACT</li>
       </ol>
      </div>
   </div>
 
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-2">
+        <div class="col-md-5">
+          <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+            <strong>Terima kasih!</strong> Pesan Anda sudah Rakha terima.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+            <form name="my-portfololio-contact">
+                <div class="mb-2">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="name" placeholder="Nama Lengkap">
+                </div>
+                <div class="row">
+            
+                    <div class="mb-2">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" name="gmail" placeholder="contoh@gmail.com">
+                    </div>
+                 
+                    <div class="mb-2">
+                      <label for="nomor" class="form-label">No. Handphone</label>
+                      <input type="text" class="form-control form-control" id="nomor" name="nomor" placeholder="08xxxxxxxxx">
+                  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="pesan" class="form-label">Pesan dan Saran</label>
+                    <textarea class="form-control" id="pesan" rows="3" name="pesan" placeholder="Berikan Pesan atau Saran mengenai Website ini..."></textarea>
+                  </div>
+                  <div class="kirim float-end">
+                    <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
+                    <button class="btn btn-success btn-loading d-none" type="button" disabled>
+                      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                      <span class="visually-hidden">Loading...</span>
+                    </button>
+                  </div>
+                
+              </form>
+        </div>
+    </div>
+  </div>
+
   <!-- Footer -->
-  <footer class="bd-footer py-5 mt-4 fixed-bottom" style="background-color: #f2f2fe;">
+  <footer class="bd-footer py-5 mt-4" style="background-color: #f2f2fe;">
     <div class="container">
+        
       <div class="row">
         <div class="col-lg-6 mb-3">
           <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/">
