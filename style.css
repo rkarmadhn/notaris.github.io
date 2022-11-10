@@ -3,26 +3,34 @@
 }
 
 /* Icon */
-.icon{
-  color: #000;
-  font-size: 45px; 
+.col-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.icon i{
+.col-icon a{
+  padding: 3px;
+}
+.icon svg{
+  color: #005c99ce;
+  font-size: 38px;
   background-color: white;
   border-radius: 100%;
-  box-shadow: 0 0 20px white;
-}
-.icon:hover{
-  color: white;
   transition: all 1s;
 }
-.icon:hover i{
-  background-color: black;
+.icon:hover svg{
+  color: white;
+  transition: all 1s;
+  background-color: #005c99ce;
   border-radius: 100%;
-  box-shadow: 0 0 15px black;
+  content: 'Hello World';
+  box-shadow: 0px 0 10px black;
 }
 /* End Icon */
-
+  .content1 ol li{
+    font-size: 14px;
+  }
 .carousel-item img{
   height: 620px;
 }
@@ -40,6 +48,9 @@
   
   
   /* Footer */
+  footer {
+    background-color: #f2f2fe;
+  }
   footer ul li{
     list-style-type: none;
   }
