@@ -15,7 +15,6 @@
 .icon svg{
   color: #005c99ce;
   font-size: 38px;
-  background-color: white;
   border-radius: 100%;
   transition: all 1s;
 }
@@ -24,7 +23,6 @@
   transition: all 1s;
   background-color: #005c99ce;
   border-radius: 100%;
-  content: 'Hello World';
   box-shadow: 0px 0 10px black;
 }
 /* End Icon */
