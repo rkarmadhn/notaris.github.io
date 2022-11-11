@@ -34,7 +34,7 @@
 }
 
 .blog-post-title{
-    font-family: "playfair Display";
+    font-family: "playfair Display", sans-serif;
 }
   section{
     padding-top: 5rem;
@@ -44,6 +44,15 @@
     color: grey;
   }
   
+  .link{
+    text-decoration: none;
+    color: orange;
+    font-family: "playfair Display", sans-serif;
+    transition: .7s;
+  }
+  .link:hover{
+    color: rgb(180, 118, 3);
+  }
   
   /* Footer */
   footer {
