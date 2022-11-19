@@ -32,6 +32,9 @@
 .carousel-item img{
   height: 620px;
 }
+.slide {
+  padding-top: 0,9rem;
+}
 
 .blog-post-title{
     font-family: "playfair Display", sans-serif;
@@ -61,11 +64,10 @@
   footer ul li{
     list-style-type: none;
   }
-  footer ul li a{
-    font-size: 18px;
+  footer ul li a, footer ul li a:hover{
+    color: gray;
     text-decoration: none;
-    color: #333;
-    font-family: 'Inter', sans-serif;
+    font-weight: 500;
   }
 
   .container .col ol li{

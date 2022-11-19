@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     z-index: 9999;
+    box-sizing: border-box;
 }
   .nav-one h5{
     display: inline-block;
@@ -29,11 +30,10 @@
     text-decoration: none;
     font-weight: 500;
     color: white;
-    transition: .8s;
     font-family: 'Inter', sans-serif;
 }
   .nav-one ul li a:hover{
-    color: gold;
+    border-bottom: 3px solid white;
 }
   nav label{
     float: right;
