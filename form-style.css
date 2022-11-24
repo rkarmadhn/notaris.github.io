@@ -68,11 +68,12 @@
         border: none;
         border-bottom: 2px solid white;
         border-radius: 0;
-        width: 380px;
+        width: 400px;
         background-color: transparent;
     }
     .tombol-form{
         width: 250px;
-        margin: 15px 30px;
+        margin-top : 15px;
+        margin-bottom : 15px;
     }
 }
