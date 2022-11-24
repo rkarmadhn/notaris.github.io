@@ -72,11 +72,11 @@
         border: none;
         border-bottom: 2px solid white;
         border-radius: 0;
-        width: 450px;
+        width: 350px;
         background-color: transparent;
     }
     .tombol-form{
-        width: 450px;
+        width: 350px;
         margin: 22px 0;
     }
 }
