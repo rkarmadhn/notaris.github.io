@@ -1,91 +1,51 @@
+body{
+    background-color: #f5f5dc;
+}
 
-.nav-one{
-    height: 80px;
-    background-color: #005d99;
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #a26028;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+nav{
+    background-color: #43302e;
+}
+.navbar{
+    font-family: 'Viga', sans-serif;
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 9999;
-    box-sizing: border-box;
+    z-index: 1020;
 }
-  .nav-one h5{
-    display: inline-block;
-    margin: 15px 20px;
+.navbar-brand{
+    font-size: 16px;
+} 
+.navbar-brand, .nav-link{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+nav a:hover, .nav-link:hover{
     color: white;
 }
-  .nav-one ul{
-    float: right;
-    margin-bottom: 0;
-    margin-right: 40px;
-    list-style: none;
-}
-  .nav-one ul li{
-    display: inline-block;
-    line-height: 80px;
-    padding: 0 5px;
-    z-index: inherit;
-}
-  .nav-one ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    color: white;
-    font-family: 'Inter', sans-serif;
-}
-  .nav-one ul li a:hover{
-    border-bottom: 3px solid white;
-}
-  nav label{
-    float: right;
-  }
-  .nav-one label #button,
-  .nav-one label #close{
-    color: whitesmoke;
-    font-size: 32px;
-    margin-right: 30px;
-    line-height: 80px;
-    cursor: pointer;
-    display: none;
-    
-}
-#check{
-    display: none;
+
+@media (min-width : 992px ) {
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #a26028;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
 }
 
-@media (max-width : 968px) {
-  /* Navbar */
-  
-  .nav-one label #button{
-    display: block;
-}
-  .nav-one ul{
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    right: -100%;
-    margin : 0;
-    top: 80px;
-    text-align: center;
-    transition: all 1s;
-    background-color: #005d99;
-    padding: 0;
-}
-  .nav-one ul li{
-    display: block;
-    line-height: 40px;
-    margin: 50px 20px 0 20px;
-}
-  .nav-one ul li{
-    border-bottom: 1px solid #000;
-  }
-
-  #check:checked ~ ul{
-    right : 0;
-  }
-  #check:checked ~ label #button{
-    display: none;
-  }
-  #check:checked ~ label #close{
-    display: block;
-}
-}
