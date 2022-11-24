@@ -1,11 +1,3 @@
-.card h3, .info{
-    margin: 30px 0;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Viga', sans-serif;
-    color: black;
-    text-shadow: 1px 1px 1px white;
-}
 .card{
     margin: 10px 0;
     background-color: wheat;
@@ -13,14 +5,32 @@
 }
 #contact{
     background-color: #483c32;
-    padding-top: 5rem;
 }
 
-
 @media (min-width : 992px) {
-    #home, #contact{
+    #contact{
+        padding-top: 5rem;
         height: 100vh;
+    }
+    .card h3, .info{
+        margin: 30px 0;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Viga', sans-serif;
+        color: black;
+        text-shadow: 1px 1px 1px white;
     }
 }
 @media (max-width : 724px) {
+    #contact{
+        padding-top: 5rem;
+    }
+    .card h3, .info{
+        margin: 30px 15px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Viga', sans-serif;
+        color: black;
+        text-shadow: 1px 1px 1px white;
+    }
 }

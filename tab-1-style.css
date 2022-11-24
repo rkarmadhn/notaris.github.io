@@ -75,32 +75,13 @@ nav a:hover, .nav-link:hover{
     font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.tombol-form{
-    text-transform: uppercase;
-    background-color: #a26028;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    transition: 1s;
-    font-weight: 400;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-.tombol:hover, .tombol-form:hover{
-    background-color: white;
-    color : #a26028;
-}
-footer{
-    background-color: #43302e;
-    color: white;
-    height: 50px;
-    font-family: 'Poppins', sans-serif;
-}
 
 /* Desktop */
 @media (min-width : 992px) {
     #tentang{
         background-color: #483c32;
     }
-    #home, #contact, #tentang{
+    #home, #tentang{
         padding-top: 5rem;
         height: 100vh;
     }
@@ -155,6 +136,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+        position: absolute;
     }
     .carousel{
         padding: 5rem 0;

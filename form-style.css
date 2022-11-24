@@ -20,8 +20,10 @@
     .contact{
         background-color: #fff;
     }
+    .form-row{
+        display: flex;
+    }
     .contact-logo{
-        text-align: center;
         padding: 15px 0;
         font-size: 40px;
         font-family: 'Viga', sans-serif;
@@ -36,17 +38,18 @@
         border-radius: 0;
         width: 210px;
     }
-    .form-lokasi{
-        margin-left: 10px;
+    .form-pesan{
+        border: none;
+        border-bottom: 2px solid #483c32;
+        border-radius: 0;
+        width: 450px;
     }
     .tombol-form{
         width: 450px;
-        margin-top: 15px;
-        margin-right: 50px;
     }
 }
 
-@media (max-width : 724px) {
+@media (max-width : 724px){
     form img{
         display: none;
     }
@@ -55,9 +58,10 @@
         padding: 10px 0;
         font-size: 40px;
         font-family: 'Viga', sans-serif;
-    }
-    form h3{
         color: white;
+    }
+    .form-row{
+        display: block;
     }
     .form-name{
         padding: 10px 0;
@@ -68,11 +72,11 @@
         border: none;
         border-bottom: 2px solid white;
         border-radius: 0;
-        width: 360px;
+        width: 450px;
         background-color: transparent;
     }
     .tombol-form{
-        width: 250px;
-        margin: 10px;
+        width: 450px;
+        margin: 22px 0;
     }
 }
