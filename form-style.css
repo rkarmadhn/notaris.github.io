@@ -50,6 +50,9 @@
 }
 
 @media (max-width : 724px){
+    form{
+        overflow: hidden;
+    }
     form img{
         display: none;
     }
@@ -72,11 +75,11 @@
         border: none;
         border-bottom: 2px solid white;
         border-radius: 0;
-        width: 300px;
+        width: 260px;
         background-color: transparent;
     }
     .tombol-form{
-        width: 300px;
+        width: 260px;
         margin: 22px 0;
     }
 }
