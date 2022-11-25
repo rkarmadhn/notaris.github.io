@@ -75,6 +75,10 @@ nav a:hover, .nav-link:hover{
     font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+.tombol:hover{
+    background-color: white;
+    color : #a26028;
+}
 
 /* Desktop */
 @media (min-width : 992px) {
