@@ -1,22 +1,22 @@
-.col-icon img{
-    width: 85px;
-    height: 85px;
+.col-icon img {
+  width: 85px;
+  height: 85px;
 }
-.col-icon:hover::after{
-    content: '0812 2020 4223';
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    border-radius: 70px;
-    align-items: center;
-    display: flex;
-    height: 52px;
-    width: 190px;
-    padding-left: 15px;
-    color: #25d366;
-    position: absolute;
-    background: white;
-    bottom: 19.5px;
-    right: 16px;
-    z-index: -1;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+.col-icon:hover::after {
+  content: "0812 2020 4223";
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 70px;
+  align-items: center;
+  display: flex;
+  height: 52px;
+  width: 190px;
+  padding-left: 15px;
+  color: #25d366;
+  position: absolute;
+  background: white;
+  bottom: 19.5px;
+  right: 16px;
+  z-index: -1;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
